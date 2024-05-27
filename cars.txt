@@ -1,0 +1,21 @@
+CARS
+________________________
+
+COLONNE                     TIPO DI DATO                                ATTRIBUTI
+id                          -   UNSEGNAD INT (no numeri negativi)   - PRIMARY_KEY (NOTNULL, UNIQUE) - AUTO_INCREMENT  
+marca                       -   VARCHAR(30)                         - NOTNULL
+modello                     -   VARCHAR(30)                         - NOTNULL
+anno_produzione             -   YEAR                                - NOTNULL
+km                          -   UNSEGNAD INT                        - NOTNULL
+colore                      -   VARCHAR(30)                         - NOTNULL
+prezzo_usato                -   DECIMAL(7,2)                        - NOTNULL - UNIQUE  
+prezzo_nuovo                -   DECIMAL(7,2)
+numero_telaio               -   VARCHAR(255)                        - NOTNULL - UNIQUE  per dashboard concessinario, per stampa NULL
+carburante                  -   VARCHAR(30)                         - NOTNULL
+cilindrata                  -   UNSEGNAD MEDIUMINT                  - NOTNULL
+potenza_cavalli             -   UNSEGNAD INT                        - NOTNULL
+cambio                      -   VARCHAR(30)                         - NOTNULL
+num_proprietari_precedenti  -   UNSEGNAD TINYNT        
+descrizione                 -   TEXT
+
+
